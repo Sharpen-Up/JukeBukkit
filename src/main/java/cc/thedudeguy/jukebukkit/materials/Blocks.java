@@ -23,13 +23,16 @@ public class Blocks {
 	
 	public static RecordPlayer recordPlayer;
 	public static JukeboxBasic jukeboxBasic;
+	public static cc.thedudeguy.jukebukkit.materials.blocks.CopyBasic CopyBasic;
 	public static JukeboxLowRange jukeboxLowRange;
 	public static JukeboxMidRange jukeboxMidRange;
 	public static JukeboxLongRange jukeboxLongRange;
 	public static JukeboxMaxRange jukeboxMaxRange;
 	public static JukeboxWorldRange jukeboxWorldRange;
 	
+	
 	public static DiscBurner discBurner;
+	
 	
 	public static Speaker speaker;
 	
@@ -41,7 +44,9 @@ public class Blocks {
 		
 		discBurner = new DiscBurner();
 		
+		
 		jukeboxBasic = new JukeboxBasic();
+		CopyBasic = new cc.thedudeguy.jukebukkit.materials.blocks.CopyBasic();
 		jukeboxLowRange = new JukeboxLowRange();
 		jukeboxMidRange = new JukeboxMidRange();
 		jukeboxLongRange = new JukeboxLongRange();

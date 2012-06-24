@@ -79,6 +79,17 @@ public class Recipies {
 			.setIngredient('n', MaterialData.noteblock)
 			);
 		
+		//////////////////////////////
+		// Basic CD-Copier Jukebox  //
+		//////////////////////////////
+		SpoutManager.getMaterialManager().registerSpoutRecipe(
+			new SpoutShapedRecipe( new SpoutItemStack(Blocks.CopyBasic, 1) )
+			.shape("kkk","jnj","kkk")
+			.setIngredient('j', Blocks.jukeboxBasic)
+			.setIngredient('n', Blocks.discBurner)
+			.setIngredient('k', MaterialData.noteblock)
+			);
+		
 		///////////////////////
 		// Low Range Jukebox //
 		///////////////////////

@@ -143,7 +143,7 @@ public class BurnButton extends GenericButton {
       		discData.setColor(color);
       		JukeBukkit.instance.getDatabase().save(discData);
       	
-      	//create the physical disc for the pplayer
+      	//create the physical disc for the player
     	BurnedDisc disc = new BurnedDisc(discData);
     	Items.burnedDiscs.put(key, disc);
     	ItemStack iss = new SpoutItemStack(disc, 1);
